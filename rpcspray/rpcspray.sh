@@ -11,7 +11,7 @@ else
     	for p in `cat $password`
     	do
 	    	echo -ne "[*] Trying: '$u:$p' \n" &&
-	    	rpcclient -U "$u%$p" -c "getusername;quit" $targetip
+	    	rpcclient -U "$u%$p" -c "getusername;quit" $targetip | grep -v 'NT_STATUS_LOGON_FAILURE'
     	done
     done
 fi

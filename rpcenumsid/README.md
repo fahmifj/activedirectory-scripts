@@ -1,7 +1,7 @@
 
 ## rpcenumsid
 
-A script for brute-forcing SIDs to enumerate AD user accounts. This tool utilizes `rpcclient` from Samba client
+A script for brute-forcing SIDs to enumerate AD user accounts. This tool utilizes `rpcclient` from Samba client (wrapper).
 ```
 $ sudo apt-get install smbclient
 ```
