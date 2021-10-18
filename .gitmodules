@@ -1,0 +1,3 @@
+[submodule "PrintNightmare"]
+	path = PrintNightmare
+	url = https://github.com/fahmifj/PrintNightmare-kit.git
